@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="headers\hack">
+      <UniqueIdentifier>{e0cfff92-e82c-45dd-9db9-9b971ce2822d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\engine">
+      <UniqueIdentifier>{a24c75b1-e51a-4287-8f59-f65fc36a040e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="def">
+      <UniqueIdentifier>{c6af1e5b-80fc-4932-ae15-cb3e00867138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\hack">
+      <UniqueIdentifier>{321e527f-1a8b-49ad-9868-b24e592c3cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\engine">
+      <UniqueIdentifier>{71088d41-adf8-437c-9d99-882238e371fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hooks.cpp">
+      <Filter>cpp\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="crc32.cpp">
+      <Filter>cpp\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>cpp\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="csgo.cpp">
+      <Filter>cpp\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="draw.cpp">
+      <Filter>cpp\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>cpp\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>cpp\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="vars.cpp">
+      <Filter>cpp\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>cpp\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>cpp\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="hvh.cpp">
+      <Filter>cpp\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="trig.cpp">
+      <Filter>cpp\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="players.cpp">
+      <Filter>cpp\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon.cpp">
+      <Filter>cpp\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>cpp\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="legitaim.cpp">
+      <Filter>cpp\hack</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dll.h">
+      <Filter>headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="hashes.h">
+      <Filter>headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo.h">
+      <Filter>headers\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="const.h">
+      <Filter>headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="vec.h">
+      <Filter>headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="draw.h">
+      <Filter>headers\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>headers\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>headers\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="vars.h">
+      <Filter>headers\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="crc32.h">
+      <Filter>headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>headers\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.h">
+      <Filter>headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>headers\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="hurt.h">
+      <Filter>headers\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="hvh.h">
+      <Filter>headers\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="trig.h">
+      <Filter>headers\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="players.h">
+      <Filter>headers\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="impact.h">
+      <Filter>headers\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="legitaim.h">
+      <Filter>headers\hack</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dll.def">
+      <Filter>def</Filter>
+    </None>
+  </ItemGroup>
+</Project>

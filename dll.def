@@ -1,0 +1,25 @@
+LIBRARY
+EXPORTS
+	HookFrameStageNotify
+	HookOverrideView
+	HookCreateMove
+	HookClientCreateMove
+	HookDrawModel
+	HookDrawWorldLists
+	HookInPrediction
+	HookRunCommand
+	HookGetLocalAngles
+	HookEncodeUsercmd
+	HookTimeDemo
+	HookPaint
+	HookClientKeyEvent
+	HookKeyEvent
+	HookUpdateButton
+	HookOverrideMouse
+	HookEyePitch
+	HookEyeYaw
+	HookBodyYaw
+	HookFlash
+	HookSmokeEffect
+	GetBaseClassAddress
+	GetBaseClassSize
